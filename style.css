@@ -1,0 +1,35 @@
+header {
+    background-color: lightpink;
+    height: 15%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+nav {
+    background-color: lightgreen;
+    height: 75%;
+    width: 20%;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+}
+
+footer {
+    background-color: lightsalmon;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    left: 0%;
+}
+
+main {
+    background-color: lightyellow;
+    height: 75%;
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
