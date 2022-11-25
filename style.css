@@ -17,6 +17,15 @@ nav {
     left: 0%;
 }
 
+nav.two {
+    background-color: lightblue;
+    height: 75%;
+    width: 15%;
+    position: absolute;
+    top: 15%;
+    left: 85%;
+}
+
 footer {
     background-color: lightsalmon;
     height: 10%;
@@ -29,7 +38,7 @@ footer {
 main {
     background-color: lightyellow;
     height: 75%;
-    width: 85%;
+    width: 70%;
     position: absolute;
     top: 15%;
     left: 15%;
