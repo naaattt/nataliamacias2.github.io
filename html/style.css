@@ -1,0 +1,386 @@
+/*Autora: Nat:)*/
+/*estilos para las imagenes*/
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+img.icon {
+    height: 30px;
+    width: 30px;
+}
+/*estilos header*/
+header {
+    height: 15%;
+    width: 85%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+div.menu {
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    top: 0%;
+    left: 30%;
+    text-align: right;
+}
+
+div.logo {
+    position: absolute;
+    height: 80%;
+    width: 13%;
+    top: 10%;
+    left: 1%;
+}
+
+li.menu{
+    list-style-type: none;
+    display: inline;
+    font: bold 150% fantasy;
+    margin: 0%;
+    padding: 50px;
+}
+
+li.menu:hover{
+    background-color: rgb(177, 61, 177);
+}
+
+a.menu:visited {
+    text-decoration: none;
+    color: magenta;
+}
+
+a.menu:link {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+
+/* estilos navegadores*/
+
+nav {
+    height: 95%;
+    width: 15%;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+}
+
+div.navizq {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+    text-align: left;
+}
+
+li.nav{
+    list-style-type: none;
+    font: bold 100% serif; 
+    border: 5px dashed lightskyblue; 
+    background-color: rgb(195, 231, 243);
+    margin-top: 20%;
+    padding: 20px;
+}
+
+li.nav:hover{
+    background-color: white;
+}
+
+a.nav:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+a.nav:link {
+    text-decoration: none;
+    color: rgb(99, 99, 218);
+}
+
+
+
+
+nav.two {
+    background-color: rgb(195, 231, 243);
+    height: 110%;
+    width: 15%;
+    position: absolute;
+    top: 0%;
+    left: 85%;
+}
+
+div.leona {
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    top: 8%;
+    text-align: center;
+    font: oblique bold 120% cursive;
+}
+
+div.fotoleona {
+    position: absolute;
+    height: 20%;
+    width: 90%;
+    top: 15%;
+    left: 5%;
+}
+
+div.textoleona {
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    top: 38%;
+    text-align: center;
+    font: oblique 90% cursive;
+}
+
+
+
+/* estilos pagina principal*/
+
+h1{
+    font: bold 200% monospace;
+    color: rgb(90, 90, 154);
+}
+
+h3{
+    font: bold 150% monospace;
+    text-decoration: underline;
+    color:rgb(90, 90, 154)
+}
+main {
+    background-color: white;
+    height: 75%;
+    width: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+div.foto {
+    position: absolute;
+    height: 30%;
+    width: 15%;
+    top: 2%;
+    left: 2%;
+
+}
+
+div.intro {
+    position: absolute;
+    height: 30%;
+    width: 77%;
+    top: 2%;
+    left: 20%;
+}
+
+div.columnas {
+    background-color: white;
+    position: absolute;
+    height: 40%;
+    width: 95%;
+    top: 35%;
+    left: 2%;
+}
+
+p.columnas{
+    column-count: 3;
+    column-rule: purple dotted 5px;
+}
+
+div.tit1 {
+    position: absolute;
+    height: 5%;
+    width: 45%;
+    top: 77%;
+    left: 2%;
+    text-align: center;
+    font: oblique bold 100% sans-serif;
+    background-color: lightskyblue;
+}
+
+div.act1 {
+    position: absolute;
+    height:40%;
+    width: 45%;
+    top: 84%;
+    left: 2%;
+}
+
+div.tit2 {
+    position: absolute;
+    height: 5%;
+    width: 45%;
+    top: 77%;
+    left: 52%;
+    text-align: center;
+    font: oblique bold 100% sans-serif;
+    background-color: lightskyblue;
+}
+
+div.act2 {
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    height:40%;
+    width: 45%;
+    top: 84%;
+    left: 52%;
+}
+
+/* estilos footer*/
+footer {
+    background-color: lightskyblue;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 110%;
+    left: 0%;
+}
+
+div.enlaces {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    top: 10%;
+    left: 5%;
+}
+
+/*EXLUSIVOS FORMULARIO*/
+
+header.form {
+    height: 15%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+nav.form {
+    background-color: lightgrey;
+    height: 85%;
+    width: 15%;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+}
+
+nav.twoform {
+    background-color: lightgrey;
+    height: 85%;
+    width: 15%;
+    position: absolute;
+    top: 15%;
+    left: 85%;
+}
+
+footer.form {
+    background-color: lightskyblue;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    left: 0%;
+}
+
+div.form {
+    background-color: lightgrey;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+div.formtit {
+    border: 3px white dashed;
+    position: absolute;
+    height: 8%;
+    width: 91%;
+    left: 5%;
+    top: 2%;
+    font: bold 150% serif;
+    text-align: center;
+    color:rgb(177, 61, 177)
+}
+
+div.formcont1 {
+    position: absolute;
+    height: 75%;
+    width: 43%;
+    left: 5%;
+    top: 12%;
+}
+
+div.formcont2 {
+    position: absolute;
+    height: 75%;
+    width: 43%;
+    left: 53%;
+    top: 12%;
+}
+
+div.botones {
+    position: absolute;
+    height: 8%;
+    width: 91%;
+    left: 5%;
+    top: 85%;
+}
+
+p.boton {
+    text-align: center;
+}
+
+div.montetargon {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    top: 4%;
+    left: 9%;
+}
+
+/*estilos exclusivos curriculum*/
+
+main.cv {
+    background-color: lightgrey;
+}
+
+div.titulo1 {
+    border: 1px solid black;
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    height: 5%;
+    width: 95%;
+}
+
+div.tab1 {
+    border: 1px solid black;
+    position: absolute;
+    top: 9%;
+    left: 3%;
+    height: 30%;
+    width: 95%;
+}
+
+div.titulo2 {
+    border: 1px solid black;
+    position: absolute;
+    top: 42%;
+    left: 3%;
+    height: 5%;
+    width: 95%;
+}
+
+div.tab2 {
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    height: 40%;
+    width: 95%;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title> El Desdén de la Luna Diana</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="form">
+            <div class="logo">
+                <img src="img/logoo.png" alt="logo" height=100% width="100%">
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li class="menu"> <a class="menu" href="./index.html"> MENU </a></li>
+                    <li class="menu"> <a class="menu" href="./curriculum.html"> CV </a> </li>
+                    <li class="menu"> <a class="menu" href="./cuestionario.html"> FORMULARIO </a></li>
+                    <li class="menu"> <a class="menu" href="./documentacion.html"> INFO </a></li>
+                </ul>
+            </div>
+
+        </header>
+
+        <nav class="form">
+            <div class="montetargon">
+                <img src="img/montetar.png" alt="monte" height="100%" width="100%">
+            </div>
+        </nav>
+
+        <nav class="twoform">
+            <div class="montetargon">
+                <img src="img/montetar.png" alt="monte" height="100%" width="100%">
+            </div>
+        </nav>
+
+        <main>
+            <div class="form">
+                <div class="formtit">
+                    CONTACTA CON NOSOTROS, HAZ SUGERENCIAS.
+                </div>
+                <form action="formulario.php" method="get">
+                    <div class="formcont1">
+                        <fieldset>
+                            <legend> Datos de contacto </legend>
+                            <p> Nombre y apellidos: <input type="text" name="nombre" size="25" placeholder="Ana Ramos"></p>
+                            <p> Edad: <input type="number" name="edad" min="16"></p>
+                            <p> Fecha de nacimiento: <input type="date" name="nacimiento"></p>
+                            <p> N&uacute;mero de tel&eacute;fono: <input type="tel" name="telefono" placeholder="+34 667 34 21 12"></p>
+                            <p> Correo electr&oacute;nico: <input type="email" name="email" placeholder="correodeprueba@email.com"></p>
+                            <p> G&eacute;nero: <br>
+                                <input type="radio" name="gen" value="h" required> Hombre. <br>
+                                <input type="radio" name="gen" value="m" required> Mujer.  <br>
+                                <input type="radio" name="gen" value="nb" required> No Binario. <br>
+                                <input type="radio" name="gen" value="o" required> Otro.
+                            </p>
+                        </fieldset>
+                    </div>  
+                    <div class="formcont2">
+                        <fieldset>
+                            <legend> Preferencias personales. </legend>
+                            <p> Color favorito: <input type="color" name="color"></p>
+                            <p> ¿Cu&aacute;les de estos deportes te gustan? 
+                                <br>
+                                <input type="checkbox" name="fut"> Futbol. <br>
+                                <input type="checkbox" name="bas"> Baloncesto. <br>
+                                <input type="checkbox" name="bal"> Balonmano. <br>
+                                <input type="checkbox" name="bad"> B&aacute;dminton.
+                            </p> 
+                            <p> Sube una foto que te guste. <input type="file" name="foto"></p>
+                            <p> Env&iacute;anos una sugerencia :)
+                                <br> <textarea name="sugerencias" rows="4" cols="20"></textarea>
+                            </p>
+                            <p>¿C&oacute;mo de feliz eres ahora mismo? <input type="range" name="feliz"></p>
+                        </fieldset>
+                    </div>  
+                    <div class="botones">
+                        <p class="boton">
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Borrar">
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer class="form">
+            <div class="enlaces">
+                <a class="footer" href="https://github.com/nataliamacias2"> 
+                    <img class="icon" src="img/github.png" alt="github">
+                </a>
+                <br>
+                <a class="footer" href="https://www.instagram.com/exxtremaydura/">
+                    <img class="icon" src="img/instagram.png" alt="instagram">
+                </a>
+            </div>
+        </footer>
+
+    </div>
+    </body>
+</html>
